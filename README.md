@@ -36,3 +36,22 @@ select * from film where rental_rate in(0.99,2,99,4,99) and replacement_cost in(
 
 ```
 
+## 3.Ödev
+```bash
+select * from country where country like 'A%a'
+
+```
+```bash
+select * from country where country like '______%n'
+```
+```bash
+select title from film where title like '%t%t%t%t%'
+
+```
+```bash
+select * from film where title like 'C%' and length > 90 and rental_rate = 2.99 
+
+```
+
+
+
