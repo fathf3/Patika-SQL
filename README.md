@@ -71,7 +71,23 @@ select count(*) from country where country like '_____'
 ```
 ```bash
 select count(*) from city where city like 'R%r'
+```
 
+## 5.Ödev
+```bash
+select title from film where title like '%n' order by length desc limit 5
 
+```
+```bash
+select title from film where title like '%n' order by length  limit 5
+
+```
+```bash
+select title from film where title like '%n' order by length  limit 5  offset 6
+
+```
+```bash
+select * from customer  where store_id = 1 order by last_name desc limit 4 
+```
 
 
