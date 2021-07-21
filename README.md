@@ -108,3 +108,76 @@ select length from film  where rental_rate = 0.99  order by length desc limit 1
 select count(distinct replacement_cost) from film  where length>150
 ```
 
+
+## 7.Ödev
+```bash
+select rating from film group by rating
+
+```
+```bash
+select replacement_cost, count(*)   from film group by replacement_cost having count(*) > 50
+
+
+```
+```bash
+select store_id, count(*) from customer group by store_id  
+
+
+```
+```bash
+select country_id , count(*) from city group by country_id  ORDER BY COUNT(country_id) DESC limit 1
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
