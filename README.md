@@ -29,7 +29,7 @@ select * from film where replacement_cost between 12.99 and 16.99
 
 ```
 ```bash
-select first_name,last_name from Actor where first_name in('Penelope','Nick','Ed');
+select first_name,last_name from Actor where first_name in('Penelope','Nick','Ed')
 ```
 ```bash
 select * from film where rental_rate in(0.99,2,99,4,99) and replacement_cost in(12.99,15.99,28.99)
