@@ -224,4 +224,32 @@ select city.city, country.country from city join  country on city.city = country
 ```
 ```bash
 select customer.first_name, customer.last_name from customer join  rental on customer.rental_id  = rental.rental_id 
+```
+
+
+## 10.Ödev
+```bash
+SELECT  city.city, country.country
+FROM city
+LEFT JOIN country ON city.country_id = country.country_id
+```
+
+```bash
+SELECT  Customer.first_name, Customer.last_name, payment.payment_id
+FROM Customer
+right JOIN payment ON Customer.Customer_ID = payment.Customer_ID
+
+
+```
+
+
+```bash
+SELECT  Customer.first_name, Customer.last_name, rental.rental_id
+FROM Customer
+Full JOIN rental ON Customer.Customer_ID = rental.Customer_ID
+
+```
+
+
+
 
