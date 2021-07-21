@@ -1,7 +1,7 @@
 # Patika-SQL
 ### Patika.dev tarafindan hazirlanan SQL egitim serisinin ödevleri
 
-# 1.Ödev
+## 1.Ödev
 
 ```bash
 select title, description from film
@@ -21,5 +21,18 @@ Smith
 ```
 ```bash
 select * from film where  length < 50 AND  NOT rental_RATE = 2.99 OR NOT rental_rate = 4.99
+```
+
+## 2.Ödev
+```bash
+select * from film where replacement_cost between 12.99 and 16.99 
+
+```
+```bash
+select first_name,last_name from Actor where first_name in('Penelope','Nick','Ed');
+```
+```bash
+select * from film where rental_rate in(0.99,2,99,4,99) and replacement_cost in(12.99,15.99,28.99)
+
 ```
 
