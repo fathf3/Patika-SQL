@@ -53,5 +53,25 @@ select * from film where title like 'C%' and length > 90 and rental_rate = 2.99
 
 ```
 
+## 4.Ödev
+```bash
+select distinct replacement_cost from film  
+
+```
+```bash
+select count(distinct replacement_cost ) from film 
+```
+```bash
+select count(*) from film where title like 'T%' and rating = 'G'
+
+```
+```bash
+select count(*) from country where country like '_____'
+
+```
+```bash
+select count(*) from city where city like 'R%r'
+
+
 
 
