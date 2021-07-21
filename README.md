@@ -249,7 +249,37 @@ FROM Customer
 Full JOIN rental ON Customer.Customer_ID = rental.Customer_ID
 
 ```
+## 11.Ödev
+```bash
+select first_name  from actor
+union all
+select first_name from customer
+```
+
+```bash
+select first_name  from actor
+intersect
+select first_name from customer
+
+```
 
 
+```bash
+select first_name  from actor
+except
+select first_name from customer
 
 
+```
+```bash
+select first_name  from actor
+intersect
+select first_name from customer
+
+union all
+
+select first_name  from actor
+except
+select first_name from customer
+
+```
