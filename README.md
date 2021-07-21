@@ -283,3 +283,43 @@ except
 select first_name from customer
 
 ```
+
+
+# 12.Ödev
+```bash
+select count(*) from film where length> (select avg(length) from film )
+```
+
+```bash
+select count(*) from film where rental_rate = (select max(rental_rate) from film )
+
+
+```
+
+
+```bash
+select count(*) from film where rental_rate = (select min(rental_rate) from film ) 
+and replacement_cost = (select min(replacement_cost) from film )
+```
+```bash
+select first_name from customer where customer_id = (select customer_id from payment group by customer_id ORDER BY COUNT(*) DESC limit 1 )
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
