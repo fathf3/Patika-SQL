@@ -212,6 +212,19 @@ DELETE FROM Employee WHERE name  like 'C____'
 DELETE FROM Employee WHERE id = 11
 
 ```
+## 9.Ödev
+```bash
+select city.city, country.country from city join  country on city.city = country.country
+
+```
+```bash
+select city.city, country.country from city join  country on city.city = country.country
+
+
+```
+```bash
+select customer.first_name, customer.last_name from customer join  rental on customer.rental_id  = rental.rental_id 
+
 
 
 
