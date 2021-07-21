@@ -89,5 +89,22 @@ select title from film where title like '%n' order by length  limit 5  offset 6
 ```bash
 select * from customer  where store_id = 1 order by last_name desc limit 4 
 ```
+## 6.Ödev
+```bash
+Select avg(rental_rate) from film
 
+```
+```bash
+Select count(*) from film where title like 'C%'
+
+
+```
+```bash
+Select length from film  where rental_rate = 0.99  order by length desc limit 1
+
+
+```
+```bash
+Select count(distinct replacement_cost) from film  where length>150
+```
 
