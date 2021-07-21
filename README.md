@@ -16,7 +16,7 @@ select * from film where rental_rate = 0.99 AND replacement_cost = 12.99 OR repl
 ```
 
 ```bash
-select last_name from customer where first_name = 'Mary'; 
+select last_name from customer where first_name = 'Mary'
 Smith
 ```
 ```bash
